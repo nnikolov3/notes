@@ -1,0 +1,19 @@
+#+title: ModelSim
+#+subtitle: useful commands
+#+date: July 21, 2020
+
+** Create the logic library
+- vlib work 
+
+** Mapping the logic library to physical 
+- vmap logical_name( eg. work) path_to_directory
+
+** Compiling Verilog
+- vlog .v 
+
+** Loading the design to simulation
+- vsim <top_level.v> ( in this case is the test-bench)
+
+** Simulating the design 
+- run 
+
